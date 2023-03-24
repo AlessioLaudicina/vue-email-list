@@ -15,7 +15,7 @@
 
         <h1>Lista 10 Email Casuali</h1>
         <div class="email-list">
-            <ul>
+            <ul v-if="emailList.length == 10">
                 <li v-for="email in emailList">{{ email }}</li>
             </ul>
         </div>
